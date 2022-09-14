@@ -1,0 +1,454 @@
+@import url("font.css");
+/* Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+}
+
+body{
+    background-color: white;
+    height: 5000px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header .navbar {
+    background-color: #252e31;
+    color: white;
+    font-family: "LatoBold";
+    overflow: hidden;
+}
+
+.header .navbar h2{
+    float: left;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.header .navbar h2 span{
+    color: #2ecc71;
+}
+
+.header .navbar ul {
+    list-style-type: none;
+    float: right;
+    font-size: 16px;
+    padding-left: 0;
+    overflow: hidden;
+    
+}
+
+.header .navbar ul li{
+    float: left;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: #2ECC71;
+}
+.header .navbar ul li a{
+    color: #2ECC71;
+    text-decoration: none;
+}
+
+
+/* Slider */
+
+.header .slider{
+    background-color: #ccc;
+    height: 600px;
+    background-image: url("../images/slider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Features */
+.feature {
+      overflow: hidden;
+      padding-top: 30px;
+      padding-bottom: 30px;
+}
+.feature .feat{      
+      float: left;
+      width: 33.333333%;
+      height: 250px;
+      padding: 30px;
+      text-align: center;
+}
+
+.feat i{
+    font-size: 40px;
+    color: #2ECC71;
+}
+
+.feat h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: #2ECC71;
+    font-family: "LatoBold";
+}
+
+.feat p{
+    line-height: 1.7em;
+    font-family: "LatoThin";
+    margin-top: 10px;
+}
+
+/* About Me */
+.aboutme{
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.aboutme .container .image {
+    float: left;
+    width: 40%;
+}
+.aboutme .container .image img{
+    width: 100%;
+}
+.aboutme .container .info{
+    float: left;
+    width: 60%;
+}
+
+.aboutme .container .info h2{
+    margin: 40px 0 20px 40px;
+    font-family: "LatoBold";
+    color: #2ECC71;
+    text-transform: uppercase;
+}
+
+.aboutme .container .info > p{
+    margin: 0 0 10px 40px;
+    font-family: "LatoLight";
+    line-height: 1.5em;
+}
+
+.aboutme .container .hobi{
+    overflow: hidden;
+    margin: 40px 0 0 40px;
+}
+
+.aboutme .container .hobi > div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    padding: 10px;
+}
+.aboutme .container .info .hobi > div > h3{
+    font-family: "LatoBold";
+    color: #2ECC71;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+
+.aboutme .container .info .hobi > div > h3 i{
+    margin-right: 20px;
+}
+
+.aboutme .container .info .hobi > div > p{
+    font-family: "LatoLight";
+}
+
+/* My Skills */
+.myskill{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.myskill .container .skills,
+.myskill .container .progress
+{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.myskill .container .skills h2{
+    font-family: "LatoBold";
+    color: #2ECC71;
+    text-transform: uppercase;
+}
+
+.myskill .container .skills p{
+    font-family: "LatoLight";
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+.myskill .container .skills button{
+    border: 2px solid #2ECC71;
+    background: none;
+    padding: 10px 30px;
+    font-family: "LatoBold";
+    margin-top: 40px;
+}
+
+.myskill .container .progress .technique{
+    margin-left: 40px;
+
+}
+.myskill .container .progress .technique div{
+    background-color: #f2f2f2;
+    height: 25px;
+    margin: 10px 0;
+}
+.myskill .container .progress .technique div span{
+    background-color: #2ECC71;
+    font-family: "Latobold";
+    display: block;
+    color: white;
+    height: 25px;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 25px;
+}
+
+.myskill .container .progress .technique h3{
+    font-family: "LatoBold";
+    color: #2ECC71;
+    text-transform: uppercase;
+}
+
+/* RESUME */
+.resume{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    text-align: center;
+}
+
+.resume .container h2{
+    color: #2ECC71;
+    font-family: "LatoRegular";
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.resume .container p{
+    font-family: "LatoLight";
+    line-height: 1.5em; 
+}
+
+.resume .container button{
+    font-family: "LatoBold";
+    margin: 30px;
+    border: 2px solid #2ECC71;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+/* MY EDUCATION */
+.myeducation{
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.myeducation .container .eduexp .certificate hr{
+    border: 2px solid #2ECC71;
+    margin: 5px 0;
+}
+
+.myeducation .container .edumain{
+    width: 50%;
+    float: left;
+}
+
+.myeducation .container .eduexp {
+    width: 50%;
+    float: left;
+}
+
+.myeducation .container .edumain h2{
+    text-transform: uppercase;
+    color: #2ECC71;
+    font-family: "LatoBold";
+}
+.myeducation .container .edumain p{
+    font-family: "LatoLight";
+    line-height: 1,5em;
+    margin-top: 10px;
+    padding-right: 50px;
+}
+
+.myeducation .container .eduexp .certificate h3{
+    font-family: "LatoBold";
+    color: #2ECC71;
+    text-transform: uppercase;
+    padding: 2px;
+    margin-top: 35px;
+}
+
+.myeducation .container .eduexp .certificate span{
+    font-family: "LatoRegular";
+    margin-bottom: 10px;
+    display: block;
+}
+
+.myeducation .container .eduexp .certificate span:first-of-type{
+    margin-top: 10px;
+}
+.myeducation .container .eduexp .certificate span:last-of-type{
+    background-color: #2ECC71;   
+    display: inline-block;
+    color: white;
+    font-family: "LatoBold";
+    padding: 5px 10px;
+ }
+
+ .myeducation .container .eduexp .certificate p{
+    font-family: "LatoLight";
+    margin-bottom: 10px;
+    display: block;
+}
+
+.myeducation .container hr{
+    border: 5px solid #2ECC71;
+    margin-top: 30px;
+}
+
+/* Portfolio */
+.portfolio{
+    overflow: hidden;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.portfolio .container p{
+    font-family: "LatoLight";
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.portfolio .container h2{
+    color: #2ECC71;
+    font-family: "LatoBold";
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.portfolio .container .ourwork > img{
+    width: 250px;
+    margin: 20px;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 20px;
+}
+
+.portfolio .container .ourwork > img:hover{
+    transform: scale(1.1);
+}
+
+/* CONTACT */
+.contact{
+    overflow: hidden;
+    padding: 30px 50px;
+    background-color: #252f31;
+}
+.contact .container .info,
+.contact .container .form{
+    width: 50%;
+    float: left;
+}
+.contact .container .info h2{
+    color: #2ECC71;
+    text-transform: uppercase;
+    font-family: "LatoBold";
+    padding: 20px 0;
+    margin-left: 40px;
+}
+
+.contact .container .info p,
+.contact .container .info address {
+    color: #fff;
+    font-family: "LatoLight";
+    line-height: 1.5em;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.contact .container .form{
+    padding-top: 30px;
+}
+
+.contact .container .form label{
+    font-family: "LatoBold";
+    color: #2ECC71;
+    display: block;
+    margin: 10px 0;
+}
+
+.contact .container .form input[type="text"]{
+    background-color: #4B5557;
+    color: #fff;
+    font-family: "LatoRegular";
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.contact .container .form textarea{
+    background-color: #4B5557;
+    color: white;
+    font-family: "LatoRegular";
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.contact .container .form input[type="submit"]{
+    display: block;
+    background-color: #191E22;
+    font-family: "LatoBold";
+    color: #2ECC71;
+    padding: 10px 30px;
+    width: 40%;
+    text-transform: uppercase;
+}
+
+
+/* Footer */
+.footer{
+    background-color: #191E22;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .div{
+    font-family: "LatoBold";
+}
+.footer div span{
+    color: #2ECC71;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding-left: none;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a i{
+    color: white;
+    margin: 30px 20px;
+}
+
+.footer ul li a i:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+
+
+
+
